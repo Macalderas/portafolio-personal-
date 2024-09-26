@@ -4,9 +4,8 @@
 max-height: 8rem;
 background-color: rebeccapurple;
 
-
-    display: flex;
+}
+header {
+display: flex;
     justify-content: space-between;
-
-
 }

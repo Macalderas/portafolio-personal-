@@ -1,4 +1,5 @@
-    function proyect(){
+   import{header} from "../header/header"
+   function proyect(){
 
         let section = document.createElement('section');
         section.appendChild(header()) 
