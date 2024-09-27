@@ -1,11 +1,8 @@
-.section-header{
-    padding: 0 5rem;
-     height: 100%;
-max-height: 8rem;
-background-color: rebeccapurple;
-
-}
-header {
-display: flex;
+.section-proyectos {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }

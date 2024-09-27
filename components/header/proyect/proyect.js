@@ -1,33 +1,25 @@
-   import{header} from "../header/header"
-   function proyect(){
-
-        let section = document.createElement('section');
-        section.appendChild(header()) 
-        section.appendChild(Item())
-          return section
-    }
-
-function header(){
-    let div = document.createElement('div');
-        div.className = "header";
-
-        let h2 = document.createElement('h2');
-        h2.innerHTML = "proyectos ";
-        div.appendChild(h2);
+import { header } from "../header/header.js";
 
 
-        let btn = document.createElement('div');
-        btn.innerHTML = "git hub";
-        div.appendChild(btn);
+function proyectos(){
+     let section = document.createElement('section');
+     section.appendChild(header())
+     section.appendChild(item())
+     section.className = 'section-proyectos';
+     
 
-    return div ;
+
+     return section;
 }
 
-    function Item(){
-        let div = document.createElement('div')
-        div.innerText = "item de lista";
+// item lista
 
-        return div ;
-    }
+function item(){
+    let div = document.createElement('div');
+    div.innerText = "item listo"
+    div.className = 'item';
 
-    export {proyect}
+    return div;
+}
+
+export {proyectos}

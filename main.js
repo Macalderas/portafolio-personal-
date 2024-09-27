@@ -1,21 +1,19 @@
-import { navBarDiv } from "./components/header/navBar/navBar";
-import {proyect} from "./components/header/proyect/proyect";
-/* Componentes de la pagina  */
+import { navBarDiv } from "./components/header/navBar/navBar.js";
+import {proyectos} from "./components/header/proyect/proyect.js";
+
+/* Componentes de la página */
 let DOM = document.querySelector("#root");
 
 /* navBar */
-
 let navBar = document.createElement('section');
-navBar.className = "nav-Bar";
-navBar.appendChild(navBar);
+navBar.className = "nav-bar";
+navBar.appendChild(navBarDiv);
 DOM.appendChild(navBar);
 
 /* proyect */
-let proyect = document.createElement('section')
-proyect.classList = "proyect";
-proyect.innerText = "hola mundo yo soy proyect"; /* componente  */
+let proyect = document.createElement('section');
+proyect.className = "proyect";
+proyect.appendChild (proyectos()); 
 DOM.appendChild(proyect);
 
-let section = document.createElement('section');
-section.innerText = "Hola soy texto completo";
-DOM.appendChild(proyect);
+
