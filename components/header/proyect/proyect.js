@@ -12,7 +12,7 @@ function proyectos(){
      return section;
 }
 
-// item lista
+// item lista 
 
 function item(){
     let div = document.createElement('div');
