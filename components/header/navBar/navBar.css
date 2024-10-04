@@ -1,17 +1,16 @@
-.nav-bar-div {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.nav-bar{
+    height: 100vh;
     border-right: 1px solid black;
-
 }
 
-.img-logo {
-    width: 80px;  
-    height: 80px; 
-    margin-right: 20px;
+.nav-bar div {
+    border-left: 1px solid gray;
+    display: grid;
+    grid-template-columns: 5rem auto;
+    align-items: center;
+    
 }
 
-.nav-bar h2 {
-    font-size: 24px; 
+.nav-bar div .img-logo {
+    width: 4rem;
 }

@@ -1,5 +1,4 @@
-import { header } from ""
-
+import { header } from "../header/header.js";
 
 function proyectos(){
      let section = document.createElement('section');
