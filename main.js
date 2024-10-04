@@ -1,5 +1,5 @@
-import { navBarDiv } from "./components/header/navBar/navBar.js";
-import {proyectos} from "./components/header/proyect/proyect.js";
+import { navBarDiv } from "./components/navBar/navBar.js";
+import { proyectos } from "./components/proyect/proeyect.js";
 
 /* Componentes de la página */
 let DOM = document.querySelector("#root");
@@ -13,7 +13,7 @@ DOM.appendChild(navBar);
 /* proyect */
 let proyect = document.createElement('section');
 proyect.className = "proyect";
-proyect.appendChild (proyectos()); 
+proyect.appendChild (proyectos()); //<------- componente
 DOM.appendChild(proyect);
 
 
